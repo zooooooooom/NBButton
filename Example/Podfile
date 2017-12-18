@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NBButton_Example' do
+  pod 'NBButton', :path => '../'
+
+  target 'NBButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
