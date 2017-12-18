@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AFF1BA41FE7921B00A20C1A /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1AFF1BA31FE7921B00A20C1A /* 1.gif */; };
 		304936B3B31CFFC5ACBAE108 /* Pods_NBButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9A5A6BA8F936F83B462A28 /* Pods_NBButton_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -38,9 +39,10 @@
 
 /* Begin PBXFileReference section */
 		1310D55F6442346C6A3BC939 /* Pods-NBButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBButton_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NBButton_Tests/Pods-NBButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1AFF1BA31FE7921B00A20C1A /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
 		1B9A5A6BA8F936F83B462A28 /* Pods_NBButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NBButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B0CB831AF4908804697ACA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		418FBDED090BAE22CB8DEA3B /* NBButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NBButton.podspec; path = ../NBButton.podspec; sourceTree = "<group>"; };
+		3B0CB831AF4908804697ACA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		418FBDED090BAE22CB8DEA3B /* NBButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NBButton.podspec; path = ../NBButton.podspec; sourceTree = "<group>"; };
 		428CB61860F926CB8A038C33 /* Pods-NBButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBButton_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NBButton_Tests/Pods-NBButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5C0F8B1EA2A5198CDB04B575 /* Pods-NBButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBButton_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NBButton_Example/Pods-NBButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5E4AC2397966B8B03A75B0E3 /* Pods-NBButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBButton_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NBButton_Example/Pods-NBButton_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,7 +68,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F30A1B1C31298935E1366BBB /* Pods_NBButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NBButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9C427208E45211FEF6CC038 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F9C427208E45211FEF6CC038 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +97,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AFF1BA21FE7920F00A20C1A /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF1BA31FE7921B00A20C1A /* 1.gif */,
+			);
+			path = Gif;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				1AFF1BA21FE7920F00A20C1A /* Gif */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for NBButton */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -282,6 +293,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				1AFF1BA41FE7921B00A20C1A /* 1.gif in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,10 +331,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-NBButton_Example/Pods-NBButton_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/NBButton/NBButton.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NBButton.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

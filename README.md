@@ -7,7 +7,10 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+![image](https://github.com/shiyingfeng/NBButton/raw/master/Gif/1.gif)
+
+看Demo
 
 ## Requirements
 
@@ -16,7 +19,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 NBButton is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
+```iOS
 pod 'NBButton'
 ```
 

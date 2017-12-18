@@ -1,0 +1,6 @@
+framework module NBButton {
+  umbrella header "NBButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

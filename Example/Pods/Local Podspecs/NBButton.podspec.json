@@ -1,0 +1,22 @@
+{
+  "name": "NBButton",
+  "version": "0.1.0",
+  "summary": "A short description of NBButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shiyingfeng/NBButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shiyingfeng": "shiyingfeng@ccahouse.org"
+  },
+  "source": {
+    "git": "https://github.com/shiyingfeng/NBButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NBButton/Classes/**/*"
+}

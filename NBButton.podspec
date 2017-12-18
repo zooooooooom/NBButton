@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NBButton'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NBButton.'
+  s.summary          = '常见的按钮位置改变'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+这是一个描述按钮位置改变的自定义控件
                        DESC
 
   s.homepage         = 'https://github.com/shiyingfeng/NBButton'
