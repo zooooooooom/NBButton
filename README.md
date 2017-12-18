@@ -8,7 +8,7 @@
 ## Example
 
 
-![image](https://github.com/shiyingfeng/NBButton/raw/master/Gif/1.gif)
+![image](https://github.com/shiyingfeng/NBButton/raw/master/NBButton/Gif/1.gif)
 
 看Demo
 
